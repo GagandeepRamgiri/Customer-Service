@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sony.entity.Customer;
 import com.sony.entity.CustomerList;
 import com.sony.service.CustomerService;
-
+@CrossOrigin
 @RestController
 @RequestMapping("/api/customers")
 public class CustomerController {
